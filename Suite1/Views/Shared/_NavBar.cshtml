@@ -1,0 +1,97 @@
+﻿<div class="sidebar-wrapper" data-simplebar="true">
+    <div class="sidebar-header">
+        <div>
+            <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+        </div>
+        <div>
+            <h4 class="logo-text">W Suite</h4>
+        </div>
+        <div class="toggle-icon ms-auto">
+            <i class='bx bx-arrow-to-left'></i>
+        </div>
+    </div>
+    <!--navigation-->
+    <ul class="metismenu" id="menu">
+        <li>
+            <a href="javascript:;" class="has-arrow">
+                <div class="parent-icon">
+                    <i class='bx bx-home-circle'></i>
+                </div>
+                <div class="menu-title">Dashboard</div>
+            </a>
+            <ul>
+                <li>
+                    <a asp-controller="Dashboard" asp-action="Index"><i class="bx bx-right-arrow-alt"></i>Opcion 1</a>
+                </li>
+                <li>
+                    <a asp-controller="Dashboard" asp-action="Dashboard"><i class="bx bx-right-arrow-alt"></i>Opcion 2</a>
+                </li>
+            </ul>
+        </li>        
+        <li>
+            <a asp-controller="CentroAtencion" asp-action="Index">
+                <div class="parent-icon">
+                    <i class="bx bx-category"></i>
+                </div>
+                <div class="menu-title">Centro de Atención</div>
+            </a>
+        </li>
+        <li>
+            <a asp-controller="Clientes" asp-action="Index">
+                <div class="parent-icon">
+                    <i class="bx bx-user-circle"></i>
+                </div>
+                <div class="menu-title">Clientes</div>
+            </a>
+        </li>
+        <li>
+            <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon">
+                    <i class="bx bx-donate-blood"></i>
+                </div>
+                <div class="menu-title">Reportes</div>
+            </a>
+            <ul>
+                <li>
+                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Reporte 1</a>
+                </li>
+                <li>
+                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Reporte 2</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon">
+                    <i class="bx bx-folder"></i>
+                </div>
+                <div class="menu-title">Chat Bot</div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon">
+                    <i class="bx bx-folder"></i>
+                </div>
+                <div class="menu-title">Chat Plugin</div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon">
+                    <i class="bx bx-folder"></i>
+                </div>
+                <div class="menu-title">Chat Plugin</div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon">
+                    <i class="bx bx-support"></i>
+                </div>
+                <div class="menu-title">Ajustes</div>
+            </a>
+        </li>
+    </ul>
+    <!--end navigation-->
+</div>
